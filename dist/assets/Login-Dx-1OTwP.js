@@ -1,0 +1,1 @@
+import{u as n,j as s,c as o}from"./index-BlnJFpqu.js";const e="https://rickandmortyapi.com/api/",a=`${e}character/`,i=()=>fetch(a+"2").then(t=>t.json());function l(){const t=n(),c=async()=>{try{const r=await i();t(o(r))}catch(r){console.log(r)}};return s.jsxs("div",{children:[s.jsx("h1",{children:"Login"}),s.jsx("button",{onClick:c,children:"Login"})]})}export{l as default};
